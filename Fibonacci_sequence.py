@@ -1,4 +1,4 @@
-n = int(input("Enter how many terms: "))
+n = int(input("Enter Number of Terms: "))
 a, b = 0, 1
 print("Fibonacci sequence: ")
 for _ in range(n):
@@ -6,7 +6,7 @@ for _ in range(n):
     a, b = b, a + b
 
 Output:
-Enter how many terms: 13
+Enter Number of Terms: 13
 Fibonacci sequence: 
 0 
 1 
